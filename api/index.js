@@ -6,6 +6,6 @@ const port = 5000;
 
 routes(app);
 
-app.listen(port, () => console.log(`Servidor está rodando na porta ${port}`));
+app.listen(port, () => console.log(`servidor está rodando na porta ${port}`));
 
 module.exports = app;
